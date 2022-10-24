@@ -154,8 +154,36 @@ let student = {
     courseLoad: ["CSE 110","CSE 134","VIS 41"]
 };
 
-console.log(student.name);
-console.log(student["Grad Year"])
-student.greeting()
-console.log(student["Favorite Teacher"].name)
-console.log(student.courseLoad[0])
+// console.log(student.name);
+// console.log(student["Grad Year"])
+// student.greeting()
+// console.log(student["Favorite Teacher"].name)
+// console.log(student.courseLoad[0])
+
+
+function modifyArray(array, callback){
+    const newArr = [];
+    for (let i = 0; i < array.length; i++){
+        newArr.push(callback(array[i]))
+    }
+    return newArr;
+}
+
+function doSomething(num){
+    return num * 2;
+}
+
+// console.log(modifyArray([1,2,3], doSomething));
+
+// let d = new Date();
+// let time = d.toLocaleTimeString();
+// console.log(time);
+
+function printNums(){
+    console.log(1);
+    setTimeout(function() { console.log(2);}, 1000);
+    setTimeout(function() { console.log(3);}, 0);
+    console.log(4);
+
+}
+printNums();

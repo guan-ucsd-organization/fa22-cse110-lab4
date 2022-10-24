@@ -58,3 +58,22 @@ Part 2 : Question 16:
                 // console.log(statistics[i]);
             }
         }
+
+Part 2 : Question 17:
+    Result : [ 2, 4, 6 ]
+    The reason why we arrived at that result is because we call midify array with the array 1,2,3. This array is then goes through the if statement and each value is pushed to the function doSomething. gets mutiplied by 2 and then pushed into newArr. In translation, this call will go through every value in the list provided and then mutiply by 2 for each value and then push them into the newArr vairable and return that variable at the end. which is why each and every result is doubled.
+
+Part 2 : Question 18:
+    function timeFunction(){
+        // update the time.
+        let d = new Date();
+        let time = d.toLocaleTimeString();
+        console.log(time);
+    }
+
+    // Every seconds.
+    setInterval(timeFunction, 1000);
+
+Part 2 : Question 19: 
+    1 4 3 2
+    The reason why this is happending is because the set time out on line 3 delayed it so that it started a second after line 4. 
