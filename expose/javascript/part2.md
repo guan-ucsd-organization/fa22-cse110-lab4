@@ -1,14 +1,36 @@
-Part 2 : Question 1: at line 12, i will become 3 because it just exit out the loop and the list is length 3 thus after i = 2, it will be out of the loop and i++ runs one more time, and thus the i variable becomes 3 and loop ends.
-Part 2 : Question 2: discountedPrice is 150, because it hasn't changed on line 7, thus the last command it pushed was 300 * 0.5 which is 150.
-Part 2 : Question 3: final price is 150, because on line 8 the variable rouned the value discountPrice which is 150, and after the process of the rounding, the result value is still 150 since 150 dosn't have any decimal places.
-Part 2 : Question 4: it returns the discounted list which contains all the value in the list prices after being discounted by 0.5. It should contain 3 values and each of the values will look like the following. [  50, 100, 150 ] since discount is 0.5, it will just divide everything in price by 2.
-Part 2 : Question 5: we will get an error where i is not defined, because let only let i excists in the scope within the for loop. Thus there is no way to access that information outside of the for loop.
-Part 2 : Question 6: Same as the situation in Question 5, since the variable is declared with a let keyword, you are unable to access to it outside of the loop. Thus it would bring an error.
-Part 2 : Question 7: Printed: 150, The reason why it didn't get effected is because even though it still uses the let keyword, The console.log still printed it in the same scope therefore it was not effected at all and successfully printed the final price without the errors.
-Part 2 : Question 8: it printed the same thing as question 4, [50,100,150]. The reason why is because since it is returned, the return statement is in the same scope as the let keyword which makes it able to access it and return the value out of the function. 
-Part 2 : Question 9: As always, the keyword let only able to let you access through the for loop, since we called it out side of the for loop. we get an error.
-Part 2 : Question 10: The answer is 3: because it is a constant number that was saved in line 4 and it will not changed and plus its not evolking an error because it is under the same scope. 
-Part 2 : Question 11: The answer is [ 50, 100, 150 ]: It returns the normal values because there is nothing in the program that have problem with the scope issues and if each value is computed correctly though the for loop. The Values that were inputed in the prices list will all be divided by half. 
+Part 2 : Question 1: 
+    ans: 3
+        at line 12, i will become 3 because it just exit out the loop and the list is length 3 thus after i = 2, it will be out of the loop and i++ runs one more time, and thus the i variable becomes 3 and loop ends.
+Part 2 : Question 2: 
+    ans: 150
+        discountedPrice is 150, because it hasn't changed on line 7, thus the last command it pushed was 300 * 0.5 which is 150.
+Part 2 : Question 3: 
+    ans: 150
+        final price is 150, because on line 8 the variable rouned the value discountPrice which is 150, and after the process of the rounding, the result value is still 150 since 150 dosn't have any decimal places.
+Part 2 : Question 4: 
+    ans: [50,100,150]
+        it returns the discounted list which contains all the value in the list prices after being discounted by 0.5. It should contain 3 values and each of the values will look like the following. [  50, 100, 150 ] since discount is 0.5, it will just divide everything in price by 2.
+Part 2 : Question 5: 
+    ans: Error
+        we will get an error where i is not defined, because let only let i excists in the scope within the for loop. Thus there is no way to access that information outside of the for loop.
+Part 2 : Question 6: 
+    ans: Error
+        Same as the situation in Question 5, since the variable is declared with a let keyword, you are unable to access to it outside of the loop. Thus it would bring an error.
+Part 2 : Question 7: 
+    ans: 150
+        Printed: 150, The reason why it didn't get effected is because even though it still uses the let keyword, The console.log still printed it in the same scope therefore it was not effected at all and successfully printed the final price without the errors.
+Part 2 : Question 8:
+    ans: [50,100,150]
+        it printed the same thing as question 4, [50,100,150]. The reason why is because since it is returned, the return statement is in the same scope as the let keyword which makes it able to access it and return the value out of the function. 
+Part 2 : Question 9:
+    ans: Error
+        As always, the keyword let only able to let you access through the for loop, since we called it out side of the for loop. we get an error.
+Part 2 : Question 10: 
+    ans: 3
+        The answer is 3: because it is a constant number that was saved in line 4 and it will not changed and plus its not evolking an error because it is under the same scope. 
+Part 2 : Question 11: 
+    ans: [50,100,150]
+        The answer is [ 50, 100, 150 ]: It returns the normal values because there is nothing in the program that have problem with the scope issues and if each value is computed correctly though the for loop. The Values that were inputed in the prices list will all be divided by half. 
 
 Data Type: 
 Part 2 : Question 12: 
